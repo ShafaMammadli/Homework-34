@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  margin: 30px;
+  list-style-type: none;
+}
+
+div {
+  margin: 40px;
+  width: 970px;
+  height: max-content;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+
+  cursor: pointer;
+}
+
+div > section {
+  display: flex;
+  justify-content: space-between;
+}
+
+div > section > p {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+div > p {
+  font-size: 18px;
+  font-weight: 500;
+  color: #575f66;
+  margin: 20px;
+}
+
+.change {
+  display: none;
+}
+
+.fa-sort-up {
+  color: #80b554;
+}
