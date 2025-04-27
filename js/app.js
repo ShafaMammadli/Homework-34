@@ -11,8 +11,8 @@ btn.forEach((a) => {
     a.removeEventListener("click", changeColor);
   }
 
-  a.addEventListener("click", changeColor);
   a.addEventListener("click", changeDecoration);
+  a.addEventListener("click", changeColor);
 });
 
 // ? Task-2
@@ -27,14 +27,6 @@ let icon = document.querySelector("i");
 
 div.addEventListener("click", function () {
   p.classList.toggle("change");
+  icon.classList.toggle("rotate");
 });
 
-div.addEventListener("click", function () {
-  if (icon.classList.contains("fa-sort-down")) {
-    icon.classList.remove("fa-sort-down");
-    icon.classList.add("fa-sort-up");
-  } else {
-    icon.classList.remove("fa-sort-up");
-    icon.classList.add("fa-sort-down");
-  }
-});

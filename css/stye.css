@@ -41,6 +41,8 @@ div > p {
   display: none;
 }
 
-.fa-sort-up {
+.rotate {
+  transform: rotate(180deg);
   color: #80b554;
+  transition: 0.5s;
 }
