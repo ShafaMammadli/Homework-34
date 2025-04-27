@@ -9,7 +9,7 @@ ul {
   list-style-type: none;
 }
 
-div {
+.accordion {
   margin: 40px;
   width: 970px;
   height: max-content;
@@ -20,17 +20,17 @@ div {
   cursor: pointer;
 }
 
-div > section {
+.accordion > section {
   display: flex;
   justify-content: space-between;
 }
 
-div > section > p {
+.accordion > section > p {
   font-weight: 600;
   font-size: 20px;
 }
 
-div > p {
+.accordion > p {
   font-size: 18px;
   font-weight: 500;
   color: #575f66;

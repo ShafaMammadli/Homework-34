@@ -21,7 +21,7 @@ document.addEventListener("keyup", function (e) {
 });
 
 // ? Task-3
-let div = document.querySelector("div");
+let div = document.querySelector(".accordion");
 let p = document.querySelector(".text");
 let icon = document.querySelector("i");
 
