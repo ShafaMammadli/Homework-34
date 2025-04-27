@@ -13,12 +13,12 @@ btn.forEach((a) => {
 
   a.addEventListener("click", changeDecoration);
   a.addEventListener("click", changeColor);
-});
+})
 
 // ? Task-2
 document.addEventListener("keyup", function (e) {
   console.log(e.key);
-});
+})
 
 // ? Task-3
 let div = document.querySelector(".accordion");
@@ -28,5 +28,5 @@ let icon = document.querySelector("i");
 div.addEventListener("click", function () {
   p.classList.toggle("change");
   icon.classList.toggle("rotate");
-});
+})
 

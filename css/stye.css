@@ -9,6 +9,8 @@ ul {
   list-style-type: none;
 }
 
+/* ? Task-3 */
+
 .accordion {
   margin: 40px;
   width: 970px;
@@ -30,7 +32,7 @@ ul {
   font-size: 20px;
 }
 
-.accordion > p {
+div > p {
   font-size: 18px;
   font-weight: 500;
   color: #575f66;
@@ -46,3 +48,5 @@ ul {
   color: #80b554;
   transition: 0.5s;
 }
+
+
